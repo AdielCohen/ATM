@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "webworker",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "outDir": "./lib",
+    "incremental": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
+  },
+  "include": [
+    "public",  
+    "src",
+    "src/pages",
+    "src/components",
+    "./*.ts",
+    "./*.js",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.css",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.jsx",
+    "src/**/*.js", 
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules"
+  ],
+  "types": [
+    "./types/custom-types.d.ts"
+  ] 
+}
