@@ -1,10 +1,10 @@
 # Questions and Answers:
 
 ### 1. How to run the project?
-open terminal > npm start.
+### open terminal > npm start.
 
-NOTE: The application is adapted to the size of a cell phone:
-GALAXY S20 Ultra 412(Width)X915(Height)
+### NOTE: The application is adapted to the size of a cell phone:
+### GALAXY S20 Ultra 412(Width)X915(Height)
 
 ### 2. Clasue 1 file contains all the UX and UI issues.
 
