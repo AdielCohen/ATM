@@ -5,7 +5,7 @@ open terminal > npm start.
 
 The application is adapted to the size of a cell phone:
 GALAXY S20 Ultra 412(Width)X915(Height)
-
+<span style="font-size: 24px;">This text will be larger.</span>
 2. Clasue 1 file contains all the UX and UI issues.
 
 3. Personas.fig This is a file created in Figma and can only be opened through the Figma website.
